@@ -5,18 +5,13 @@ import {
   query,
   collection,
   onSnapshot,
-  getDocs,
   deleteDoc,
   updateDoc,
   doc,
   addDoc,
-  getDoc,
-  QuerySnapshot,
 } from "firebase/firestore";
 import AddEmployee from "./components/AddEmployee";
-import { async } from "@firebase/util";
 import Header from "./components/Header";
-
 function App() {
   const [showEmployees, setShowEmployees] = useState(true);
   const [employees, setEmployees] = useState([]);
