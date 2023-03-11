@@ -1,6 +1,55 @@
-# Getting Started with Create React App
+# Employees App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General Information
+
+Assignment is
+Create an application for hiring a team of developers. This application should provide functionality for browsing, adding, updating and deleting developer’s profiles and managing the hiring process.
+As a user of that system, I should be able to:
+List, create, edit and delete developer’s profiles.
+The system doesn’t have to make a difference between types of users (administrators, normal users, etc). For the sake of simplicity, everyone who is using the system can both manage developer’s profiles and hire them.
+Each developer’s profile has the following information:
+
+Name - required
+
+Email - required
+
+Phone number - required
+
+Location - required
+
+Profile picture (could be a simple url) - optional
+
+Price per hour - required
+
+Technology (one of “Javascript”, “Java”, “.NET”, “Flutter”, “Python”, “PHP”) - required
+
+Description - optional
+
+Years of experience - required
+
+Native language (one of “English”, “Serbian”, “Bulgarian”) - required
+
+Linkedin profile link - optional
+
+## Technologies Used
+
+- ReactJs
+- Firebase
+- TalwindCss
+
+## Screenshots
+
+![Example screenshot](./src/assets/appScreenshot.png)
+
+## Project Status
+
+Project is: _in progress_
+
+## Room for Improvement
+
+To do:
+
+- Feature to be added: hiring process (Select one or multiple developers and hire them for a specified period of time.)
 
 ## Available Scripts
 
