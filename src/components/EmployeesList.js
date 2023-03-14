@@ -2,7 +2,7 @@ import React from "react";
 import Employee from "./Employee";
 const EmployeesList = ({ employees, updateEmployee, deleteEmployee }) => {
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center m-2">
       {employees.map((item) => {
         return (
           <Employee

@@ -89,7 +89,7 @@ function App() {
       ) : (
         <p>You do not have any employees to show</p>
       )}
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center m-2">
         <AddEmployee addEmployee={addEmployee} />
       </div>
     </div>
