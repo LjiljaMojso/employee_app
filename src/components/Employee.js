@@ -17,23 +17,23 @@ const Employee = ({ item, updateEmployee, deleteEmployee }) => {
             <p className="text-lg text-black font-semibold">
               Name: {item.name}
             </p>
-            <p className="text-slate-500 font-medium">email: {item.email}</p>
-            <p className="text-slate-500 font-medium">
+            <p className="text-slate-500 font-small">email: {item.email}</p>
+            <p className="text-slate-500 font-small">
               Native language: {item.language}
             </p>
-            <p className="text-slate-500 font-medium">
+            <p className="text-slate-500 font-small">
               Phone number: {item.phone}
             </p>
-            <p className="text-slate-500 font-medium">
+            <p className="text-slate-500 font-small">
               Price {item.price}$ per hour
             </p>
-            <p className="text-slate-500 font-medium">
+            <p className="text-slate-500 font-small">
               Experience: {item.experience} years
             </p>
-            <p className="text-slate-500 font-medium">
+            <p className="text-slate-500 font-small">
               Location: {item.location}
             </p>
-            <p className="text-slate-500 font-medium">
+            <p className="text-slate-500 font-small">
               Tehnology: {item.tehnology}
             </p>
           </div>
